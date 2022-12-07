@@ -54,3 +54,5 @@ userdebug_or_eng(`
 
 get_prop(surfaceflinger, vendor_gralloc_prop)
 get_prop(surfaceflinger, vendor_display_prop)
+
+allow surfaceflinger vendor_hal_displayconfig_service:service_manager find;
